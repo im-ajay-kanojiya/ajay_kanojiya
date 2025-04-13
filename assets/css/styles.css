@@ -191,7 +191,7 @@ img {
 .home {
   position: relative;
   row-gap: 5rem;
-  padding: 4rem 0 5rem;
+  padding: 3rem 0 \rem;
 }
 
 .home__data {
@@ -236,7 +236,6 @@ img {
 
 .home__blob-img {
   width: 460px;
-  /* width: 360px; */
 }
 
 /*BUTTONS*/
@@ -269,7 +268,7 @@ img {
 }
 
 .about__img img {
-  width: 200px;
+  width: 200;
   border-radius: .5rem;
 }
 
@@ -308,6 +307,7 @@ img {
 .skills__names {
   display: flex;
   align-items: center;
+  color: var(--first-color);
 }
 
 .skills__bar {
@@ -320,20 +320,20 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html {
-  width: 95%;
+.programming_languages {
+  width: 100%;
 }
 
-.skills__css {
-  width: 85%;
+.major_skill {
+  width: 100%;
 }
 
-.skills__js {
-  width: 65%;
+.skill_learning {
+  width: 100%;
 }
 
-.skills__ux {
-  width: 85%;
+.skill_interested {
+  width: 100%;
 }
 
 .skills__img {
